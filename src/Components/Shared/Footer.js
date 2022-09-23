@@ -3,6 +3,59 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
+    <section className='py-32 bg-black'>
+        <div className='text-center'>
+        <h1 className='text-primary text-4xl font-bold pb-10'>Light on your mind ?</h1>
+        <p>Let's talk for a hassle free lighting design and product selection experience.</p>
+        </div>
+
+
+        <div className="max-w-full px-48 py-20 text-white">
+      <div className="flex flex-col lg:flex-row justify-center items-center container mx-auto my-10">
+        <div className='flex-1 text-center'>
+          <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+      <div className="card-body">
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text text-black">Name</span>
+          </label>
+          <input type="text" placeholder="name" className="input input-bordered text-black" />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text text-black">Email</span>
+          </label>
+          <input type="text" placeholder="email" className="input input-bordered text-black" />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text text-black">Phone</span>
+          </label>
+          <input type="text" placeholder="phone" className="input input-bordered text-black" />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text text-black">Message</span>
+          </label>
+          <textarea type="text" placeholder="message" className="input input-bordered text-black" />
+        </div>
+        <div className="form-control mt-6">
+          <button className="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>  
+        </div>
+        <div className="flex-1 text-center">
+        <p>+352 691 566 820</p>
+        <p>moien@kaash.eu</p>
+        <p>41a rue des Romains, 8041 Luxembourg</p>
+        </div>
+      </div>
+    </div>
+
+
+    
+    </section>
     <footer className="footer p-10 bg-primary text-black">
     <div>
     <span className="footer-title">Services</span> 
