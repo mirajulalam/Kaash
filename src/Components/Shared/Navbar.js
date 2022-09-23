@@ -8,7 +8,7 @@ const Navbar = () => {
         <li className='font-semibold hover:text-primary'><NavLink to='/light'>LIGHT</NavLink></li>
     </>
     return (
-        <div className="navbar sticky top-0 z-50 bg-base-100  mx-auto px-14 shadow-sm bg-black text-white">
+        <div className="navbar sticky top-0 z-50 mx-auto px-14 shadow-sm bg-black text-white">
         <div className="navbar-start">
             <div className="dropdown">
                 <label tabIndex="0" className="btn btn-ghost lg:hidden">
