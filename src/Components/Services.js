@@ -33,6 +33,39 @@ const Services = () => {
         </div>
       </div>
     </section>
+
+
+
+
+    <section className="max-w-full px-26 py-20 bg-neutral text-white">
+      <div className='py-20 px-10'>
+        <h1 className='lg:text-5xl sm:text-2xl font-semibold'>Project processes to create an ideal space</h1>
+        <p className='font-semibold pt-2'>Design + Planning + Execution</p>
+      </div>
+      <div className="flex flex-col lg:flex-row justify-center items-center container mx-auto my-10 gap-5">
+        <div className='flex-1 bg-secondary rounded-lg text-center py-20'>
+          <h1 className="text-4xl font-semibold text-white">DESIGN CYCLE</h1>
+          <p className='py-10'>Starting from a clean slate to an immersive experience of light and everything in between.</p>
+          <p>Vision <span className='text-primary'>|</span> Function <span className='text-primary'>|</span> Concept</p>
+          <div className='grid justify-items-center py-5'>
+          <img className='w-96' src='https://www.kaash.eu/gallery_gen/04f8c04fbcdee73fff8001ca4408f636.png'/>
+          </div>
+          <p className='hover:font-bold'>Know your solution</p>
+        </div>
+        <div className="flex-1 bg-secondary rounded-lg text-center py-20">
+        <h1 className="text-4xl font-semibold text-white">LIGHT SCIENCE</h1>
+        <p className='py-10'>Starting from a clean slate to an immersive experience of light and everything in between.</p>
+        <p>Scenes <span className='text-primary'>|</span>  Calculations <span className='text-primary'>|</span> Engineering</p>
+        <div className='grid justify-items-center py-5'>
+        <img className='w-96' src='https://www.kaash.eu/gallery_gen/72fdf679615ec0c3d6076ad39fdefaac.png'/>
+        </div>
+        <p className='hover:font-bold'>Know about critical parameters</p>
+        </div>
+      </div>
+    </section>
+
+
+
         </div>
     );
 };
